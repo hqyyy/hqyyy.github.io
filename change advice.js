@@ -65,8 +65,8 @@ window.onload = function () {
       {
         id: 5,
         week:'金曜日',
-        title:1,
-        content: '金曜日',
+        title:'冷房・暖房は必要な時だけつけよう',
+        content: 'タイマーを上手に使うなど、必要な場所で必要な時だけ使いましょう。外出する場合は直前でなく、早めにスイッチを切るようにしましょう。また、長時間つかわない時はプラグを抜きましょう。',
         question:'金曜日',
         flip1: '寒い',
         panel1: '金曜日',
@@ -80,7 +80,7 @@ window.onload = function () {
       {
         id: 6,
         week:'週末',
-        title:1,
+        title:'1',
         content: '土曜日',
         question:'土曜日',
         flip1: '寒い',

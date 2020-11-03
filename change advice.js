@@ -58,7 +58,7 @@ window.onload = function () {
         flip2: '蛍光灯（12W）',
         panel2: '電気4.38kWh、原油にして1.10L　CO2削減量1.5kg',
         data: '木曜日',
-        sharingweb: '<a href="https://yourplanyourplanet.sustainability.google/">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
+        sharingweb: '<a href="https://artsexperiments.withgoogle.com/diving-into-an-acidifying-ocean/">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
         elec: 50,
         glass: 6
       },
@@ -73,7 +73,7 @@ window.onload = function () {
         flip2: '暖房（設定温度20℃）',
         panel2: '電気40.73kWh、原油にして10.26L CO2削減量16.8kg',
         data: '金曜日',
-        sharingweb: '<a href="https://yourplanyourplanet.sustainability.google/">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
+        sharingweb: '<a href=""https://lowimpact.organicbasics.com/eur"">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
         elec: 60,
         glass: 7
       },
@@ -88,22 +88,22 @@ window.onload = function () {
         flip2: '週末',
         panel2: '週末',
         data: '週末',
-        sharingweb: '<a href="https://yourplanyourplanet.sustainability.google/">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
+        sharingweb: '<a href="https://coronavirusnow.artworks.brig.ht/en">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
         elec: 50,
         glass: 8
       },
       {
         id: 0,
-        week:'週末',
-        title:1,
-        content: '週末',
+        week:'週末の省エネTips:',
+        title:'仕事時間の見直し',
+        content: '仕事時間の見直し「明るい時間に働いて暗くなったら帰る」を目標に、朝早くから働いて夜間の消費電力を削減。残業などで夜遅くまで仕事をしていると、少人数のためだけに広い部屋全体を冷やしたり、暖めたりすることで電力を非効率的に消費してしまいます。',
         question:'週末',
         flip1: '週末',
         panel1: '週末',
         flip2: '週末',
         panel2: '週末',
         data: '日曜日',
-        sharingweb: '<a href="https://yourplanyourplanet.sustainability.google/">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
+        sharingweb: '<a href="https://artsexperiments.withgoogle.com/diving-into-an-acidifying-ocean/">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
         elec: 20,
         glass: 4
       }

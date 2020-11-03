@@ -27,7 +27,7 @@ window.onload = function () {
         panel1: '電気31.57kWh、原油にして7.96L　CO2削減量13.0kg',
         flip2: 'ノート型',
         panel2: '電気5.48kWh、原油にして1.38L　CO2削減量2.3kg',
-        sharingweb: '<a href="https://coronavirusnow.artworks.brig.ht/en">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
+        sharingweb: '<a href="https://lowimpact.organicbasics.com/eur">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
         data: '火曜日',
         elec: 30,
         glass: 5

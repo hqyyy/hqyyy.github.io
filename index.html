@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
+<!--百度浏览量分析-->
   <script>
 var _hmt = _hmt || [];
 (function() {
@@ -39,7 +39,26 @@ var _hmt = _hmt || [];
       </td>
 
       <td  class="costreminder">
-        <div> 今日研究室の電気消費量は：<script src="csv.js"></script>
+        <div> 今日研究室の電気消費量は：
+<!--csv 导入-->
+
+          <span id="color_list"></span>
+<script>
+    const output_svg = document.getElementById('color_list');
+    
+    function csv_data(dataPath) {
+        const request = new XMLHttpRequest(); // HTTPでファイルを読み込む
+        request.addEventListener('load', (event) => { // ロードさせ実行
+            const response = event.target.responseText; // 受け取ったテキストを返す
+            output_svg.innerHTML = response; // 表示
+        });
+        request.open('GET', dataPath, true); // csvのパスを指定
+        request.send();
+    }
+    csv_data('1.csv'); // csvのパス
+    </script>
+
+
           <br>約杯<font color='#800000'>コーラ‼</font>
         </div>
       </td>

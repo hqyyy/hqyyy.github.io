@@ -43,39 +43,8 @@ var _hmt = _hmt || [];
 <!--csv 导入-->
 
           <span id="labdata"></span>
-<script>
-    const output_svg = document.getElementById('labdata');
-    
-    function csv_data(dataPath) {
-        const request = new XMLHttpRequest(); // HTTPでファイルを読み込む
-        request.addEventListener('load', (event) => { // ロードさせ実行
-            const response = event.target.responseText; // 受け取ったテキストを返す
-            output_svg.innerHTML = response; // 表示
-        });
-        request.open('GET', dataPath, true); // csvのパスを指定
-        request.send();
-    }
-    csv_data('1.csv'); // csvのパス
-    </script>
-
-
           <br>約
           <span id="data2"></span>
-          <script>
-            const output_svg = document.getElementById('data2');
-            
-            function csv_data(dataPath) {
-                const request = new XMLHttpRequest(); // HTTPでファイルを読み込む
-                request.addEventListener('load', (event) => { // ロードさせ実行
-                    const response = event.target.responseText; // 受け取ったテキストを返す
-                    output_svg.innerHTML = response; // 表示
-                });
-                request.open('GET', dataPath, true); // csvのパスを指定
-                request.send();
-            }
-            csv_data('2.csv'); // csvのパス
-            </script>
-            
             杯<font color='#800000'>コーラ‼</font>
         </div>
       </td>
@@ -129,6 +98,26 @@ var _hmt = _hmt || [];
   border-radius:25px; border-color: azure; font-size: smaller;" >
 <b>  <font color='#008080'><span id="sharingweb"></span></b></font><!--每天变化的ウェブサイト-->
    </div>
+
+    <script>
+    // 抽象出csv_data方法
+    // csv_data方法的作用是
+    // 1.拿到目标对象的DOM
+    // 2.通过Ajax解析CSV文件
+    // 3.执行innerHTML方法
+    function csv_data(dataPath, elementId) {
+      const output_svg = document.getElementById(elementId);
+        const request = new XMLHttpRequest(); // HTTPでファイルを読み込む
+        request.addEventListener('load', (event) => { // ロードさせ実行
+          const response = event.target.responseText; // 受け取ったテキストを返す
+          output_svg.innerHTML = response; // 表示
+        });
+        request.open('GET', dataPath, true); // csvのパスを指定
+        request.send();
+    }
+    csv_data('1.csv', 'labdata'); // csvのパス
+    csv_data('2.csv', 'data2');
+  </script>
 </body>
 
 

@@ -42,9 +42,9 @@ var _hmt = _hmt || [];
         <div> 今日研究室の電気消費量は：
 <!--csv 导入-->
 
-          <span id="color_list"></span>
+          <span id="labdata"></span>
 <script>
-    const output_svg = document.getElementById('color_list');
+    const output_svg = document.getElementById('labdata');
     
     function csv_data(dataPath) {
         const request = new XMLHttpRequest(); // HTTPでファイルを読み込む
@@ -60,9 +60,9 @@ var _hmt = _hmt || [];
 
 
           <br>約
-          
+          <span id="labdata2"></span>
           <script>
-            const output_svg = document.getElementById('color_list');
+            const output_svg = document.getElementById('labdata2');
             
             function csv_data(dataPath) {
                 const request = new XMLHttpRequest(); // HTTPでファイルを読み込む

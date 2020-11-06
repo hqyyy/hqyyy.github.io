@@ -73,7 +73,7 @@ window.onload = function () {
         flip2: '暖房（設定温度20℃）',
         panel2: '電気40.73kWh、原油にして10.26L CO2削減量16.8kg',
         data: '金曜日',
-        sharingweb: '<a href="https://lowimpact.organicbasics.com/eur>今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
+        sharingweb: '<a href="https://lowimpact.organicbasics.com/eur">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
         elec: 60,
         glass: 7
       },

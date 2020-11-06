@@ -12,10 +12,7 @@ window.onload = function () {
         panel1: 'エアコンをつけてください。冬の暖房の設定温度は20℃を目安に温度調節を行いましょう。冬は洋服を一枚着たり、靴下をはいたりなどして体感温度を上げましょう。',
         flip2: 'ちょうどいい',
         panel2: '良い一日を！',
-        data: '月曜日',
         sharingweb:'<a href="https://yourplanyourplanet.sustainability.google/">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
-        elec: 20,
-        glass: 4
       },
       {
         id: 2,
@@ -28,9 +25,6 @@ window.onload = function () {
         flip2: 'ノート型',
         panel2: '電気5.48kWh、原油にして1.38L　CO2削減量2.3kg',
         sharingweb: '<a href="https://lowimpact.organicbasics.com/eur">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
-        data: '火曜日',
-        elec: 30,
-        glass: 5
       },
       {
         id: 3,
@@ -42,10 +36,7 @@ window.onload = function () {
         panel1: '水曜日',
         flip2: '蛍光灯',
         panel2: '火曜日',
-        data: '水曜日',
         sharingweb:'<a href="https://coronavirusnow.artworks.brig.ht/en">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
-        elec: 40,
-        glass: 5
       },
       {
         id: 4,
@@ -57,10 +48,7 @@ window.onload = function () {
         panel1: '電気19.71kWh、原油にして4.97L　CO2削減量6.9kg',
         flip2: '蛍光灯（12W）',
         panel2: '電気4.38kWh、原油にして1.10L　CO2削減量1.5kg',
-        data: '木曜日',
         sharingweb: '<a href="https://artsexperiments.withgoogle.com/diving-into-an-acidifying-ocean/">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
-        elec: 50,
-        glass: 6
       },
       {
         id: 5,
@@ -72,10 +60,7 @@ window.onload = function () {
         panel1: '電気18.78kWh、原油にして4.73L CO2削減量7.8kg',
         flip2: '暖房（設定温度20℃）',
         panel2: '電気40.73kWh、原油にして10.26L CO2削減量16.8kg',
-        data: '金曜日',
         sharingweb: '<a href="https://lowimpact.organicbasics.com/eur">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
-        elec: 60,
-        glass: 7
       },
       {
         id: 6,
@@ -87,10 +72,7 @@ window.onload = function () {
         panel1: '週末',
         flip2: '週末',
         panel2: '週末',
-        data: '週末',
         sharingweb: '<a href="https://coronavirusnow.artworks.brig.ht/en">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
-        elec: 50,
-        glass: 8
       },
       {
         id: 0,
@@ -102,11 +84,8 @@ window.onload = function () {
         panel1: '週末',
         flip2: '週末',
         panel2: '週末',
-        data: '日曜日',
         sharingweb: '<a href="https://artsexperiments.withgoogle.com/diving-into-an-acidifying-ocean/">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
-        elec: 20,
-        glass: 4
-      }
+        }
     ]
     // new Date().getDay(); // 会是 0 ~ 6 的值, 分別代表下述:
     // 0 星期日

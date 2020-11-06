@@ -72,7 +72,7 @@ window.onload = function () {
         panel1: '週末',
         flip2: '週末',
         panel2: '週末',
-        sharingweb: '<a href="https://coronavirusnow.artworks.brig.ht/en">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
+        sharingweb: '<a href="https://ondankataisaku.env.go.jp/coolchoice/warmbiz/warmshare/">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
       },
       {
         id: 0,

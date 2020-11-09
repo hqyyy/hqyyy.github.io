@@ -21,9 +21,9 @@ window.onload = function () {
         content: 'パソコンやコピー機などのＯＡ機器を使わないときは、必ず電源をオフにしましょう。また、長時間使わない時にはコンセントからプラグを抜けば待機電力も減らすことができ、より節電です。',
         question:'1日1時間、パソコン使用時間を減らした場合の省エネ効果（年間）わかりますか？',
         flip1: 'デスクトップ型',
-        panel1: '電気31.57kWh、原油にして7.96L　CO2削減量13.0kg',
+        panel1: '電気31.57kWh、原油にして7.96L　CO2削減量13.0kg、約690円の節約',
         flip2: 'ノート型',
-        panel2: '電気5.48kWh、原油にして1.38L　CO2削減量2.3kg',
+        panel2: '電気5.48kWh、原油にして1.38L　CO2削減量2.3kg、約120円の節約',
         sharingweb: '<a href="https://lowimpact.organicbasics.com/eur">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
       },
       {
@@ -31,11 +31,11 @@ window.onload = function () {
         week:'水曜日の省エネTips:',
         title:'冷蔵庫ドアの開閉時間を短く、余計な開閉はやめましょう',
         content:'ドアの開閉が多いと冷気が外へ逃げてしまい、冷却効率も悪くなります。よく出し入れする食品は手前におくなど、ドアの開閉時間は、できるだけ短くするよう工夫をしましょう。' ,
-        question:  '1日1時間、点灯時間を減らした場合の省エネ効果（年間）わかりますか？',
-        flip1: '白熱電球',
-        panel1: '水曜日',
-        flip2: '蛍光灯',
-        panel2: '火曜日',
+        question:  '冷蔵庫にまつわる省エネ行動や効果をわかりますか？',
+        flip1: 'ものを詰め込みすぎない',
+        panel1: '詰め込んだ場合と、半分にした場合との比較：年間で電気43.84kWh、原油にして11.05L　CO2削減量15.3kg、約960円の節約',
+        flip2: '設定温度は適切に',
+        panel2: '周囲温度22℃で、設定温度を「強」から「中」にした場合：年間で電気61.72kWh、原油にして15.55L　CO2削減量21.6kg、約1360円の節約',
         sharingweb:'<a href="https://coronavirusnow.artworks.brig.ht/en">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
       },
       {
@@ -45,9 +45,9 @@ window.onload = function () {
         content: '必要のないあかりはこまめに消しましょう。長時間部屋を空けるときは消した方が経済的です。蛍光ランプは極端に頻繁に点滅させるとランプの寿命が縮むので注意しましょう。',
         question:'1日1時間、点灯時間を減らした場合の省エネ効果（年間）わかりますか？',
         flip1: '白熱電球（54W）',
-        panel1: '電気19.71kWh、原油にして4.97L　CO2削減量6.9kg',
+        panel1: '電気19.71kWh、原油にして4.97L　CO2削減量6.9kg、約440円の節約',
         flip2: '蛍光灯（12W）',
-        panel2: '電気4.38kWh、原油にして1.10L　CO2削減量1.5kg',
+        panel2: '電気4.38kWh、原油にして1.10L　CO2削減量1.5kg、約100円の節約',
         sharingweb: '<a href="https://artsexperiments.withgoogle.com/diving-into-an-acidifying-ocean/">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
       },
       {
@@ -72,7 +72,7 @@ window.onload = function () {
         panel1: '週末',
         flip2: '週末',
         panel2: '週末',
-        sharingweb: '<a href="https://ondankataisaku.env.go.jp/coolchoice/warmbiz/warmshare/">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
+        sharingweb: '<a href="https://ondankataisaku.env.go.jp/coolchoice/warmbiz/warmshare/">週末の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
       },
       {
         id: 0,
@@ -84,7 +84,7 @@ window.onload = function () {
         panel1: '週末',
         flip2: '週末',
         panel2: '週末',
-        sharingweb: '<a href="https://artsexperiments.withgoogle.com/diving-into-an-acidifying-ocean/">今日の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
+        sharingweb: '<a href="https://ondankataisaku.env.go.jp/coolchoice/warmbiz/warmshare/">週末の環境ウェブページのシェア&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡➡➡</a>',
         }
     ]
     // new Date().getDay(); // 会是 0 ~ 6 的值, 分別代表下述:

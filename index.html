@@ -39,6 +39,8 @@ var _hmt = _hmt || [];
   
 
   <table>
+     
+  <h2　align="center"> <font  size="5" color='#000000'>省エネ行動しょう</font></h2>
     <tr>
       <td class="weareminder">
         <div class='toppart' style="width:100%;">
@@ -54,13 +56,11 @@ var _hmt = _hmt || [];
       </td>
 
       <td  class="costreminder">
-        <div> 昨日研究室の電気消費量は：
+        <div>  先週の研究室のエネルギー消費量は：W、ガス消費量は　W
 <!--csv 导入-->
 
-          <span id="labdata"></span>W
-          <br>約
-          <span id="data2"></span>
-            杯<font color='#800000'>500mlコーラ‼</font>
+         
+          <br>約 杯<font color='#800000'>500mlコーラ‼</font>
         </div>
       </td>
     </tr>
@@ -120,17 +120,17 @@ var _hmt = _hmt || [];
     // 1.拿到目标对象的DOM
     // 2.通过Ajax解析CSV文件
     // 3.执行innerHTML方法
-    function csv_data(dataPath, elementId) {
-      const output_svg = document.getElementById(elementId);
-        const request = new XMLHttpRequest(); // HTTPでファイルを読み込む
-        request.addEventListener('load', (event) => { // ロードさせ実行
-          const response = event.target.responseText; // 受け取ったテキストを返す
-          output_svg.innerHTML = response; // 表示
-        });
-        request.open('GET', dataPath, true); // csvのパスを指定
-        request.send();
+    function csv_data(dataPath, elementId) {
+      const output_svg = document.getElementById(elementId);
+        const request = new XMLHttpRequest(); // HTTPでファイルを読み込む
+        request.addEventListener('load', (event) => { // ロードさせ実行
+          const response = event.target.responseText; // 受け取ったテキストを返す
+          output_svg.innerHTML = response; // 表示
+        });
+        request.open('GET', dataPath, true); // csvのパスを指定
+        request.send();
     }
-    csv_data('out_W.csv', 'labdata'); // csvのパス
+    csv_data('out_W.csv', 'labdata'); // csvのパス
     csv_data('out_coke.csv', 'data2');
   </script>
 </body>
